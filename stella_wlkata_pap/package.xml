@@ -1,0 +1,14 @@
+<package format="2">
+  <name>stella_wlkata</name>
+  <version>1.0.0</version>
+  <description>The stella_wlkata package</description>
+  <maintainer email="lab@ntrex.co.kr">ntrex</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roslaunch</depend>
+  <depend>roscpp</depend>
+  <depend>serial</depend>
+  <export>
+    <architecture_independent />
+  </export>
+</package>

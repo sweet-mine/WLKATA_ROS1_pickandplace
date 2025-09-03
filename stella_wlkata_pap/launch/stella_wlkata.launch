@@ -1,4 +1,4 @@
 <launch>
-  <node name="stella_wlkata_node" pkg="stella_wlkata" type="stella_wlkata_node" output="screen" />
-  <node name="stella_wlkata_shm_node" pkg="stella_wlkata" type="stella_wlkata_shm_node" output="screen" />
+  <node name="stella_wlkata_node_pap" pkg="stella_wlkata" type="stella_wlkata_node" output="screen" />
+  <node name="stella_wlkata_shm_node_pap" pkg="stella_wlkata" type="stella_wlkata_shm_node" output="screen" />
 </launch>

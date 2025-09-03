@@ -58,7 +58,7 @@ void grab_write_callback(const std_msgs::Bool msg)
 		}
 		ros::Duration(1).sleep();
 
-		Gcode = (std::string)"M3S40" + "\r\n";
+		Gcode = (std::string)"M3S60" + "\r\n";
                 _serial.write(Gcode.c_str());
                 while (ros::ok())
                 {
@@ -98,7 +98,7 @@ void grab_write_callback(const std_msgs::Bool msg)
                 }
                 ros::Duration(1).sleep();
 
-		Gcode = (std::string)"M3S60" + "\r\n";
+		Gcode = (std::string)"M3S40" + "\r\n";
                 _serial.write(Gcode.c_str());
                 while (ros::ok())
                 {
